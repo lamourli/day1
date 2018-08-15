@@ -20,7 +20,7 @@ public class upload extends HttpServlet {
 public static void main(String[] args) {
 	System.out.println("ssss");
 }
-	
+	    
 	public void doGet(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException {
             String filepath = this.getServletContext().getRealPath("/uploadFile/");    //容器相对路径            
  
