@@ -14,9 +14,12 @@ import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
-//sasdsda
-public class upload extends HttpServlet {
 
+public class upload extends HttpServlet {
+	
+public static void main(String[] args) {
+	System.out.println("ssss");
+}
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException {
             String filepath = this.getServletContext().getRealPath("/uploadFile/");    //容器相对路径            
